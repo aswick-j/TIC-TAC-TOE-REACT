@@ -1,0 +1,30 @@
+.__board-container {
+  background: #fff;
+  height: 300px;
+  width: 300px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  margin: 5rem auto;
+  box-shadow: 1px 1px 15px #ccc;
+  user-select: none;
+  cursor: pointer;
+}
+
+.__board-tiles {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ccc;
+  color: #333;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.__board-tiles:hover {
+  background-color: #eee;
+}
+
+.__board-tiles:active {
+  background-color: #fff;
+}
